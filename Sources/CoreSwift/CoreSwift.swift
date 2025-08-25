@@ -7,17 +7,4 @@ public struct CoreSwift {
     }
 }
 
-<<<<<<< HEAD
-=======
 
-extension String {
-    func localized(comment: String = "") -> String {
-        NSLocalizedString(self, comment: comment)
-    }
-    
-    var localized: String {
-        NSLocalizedString(self, comment: "")
-    }
-}
-
->>>>>>> daec1a1 (Initial commit)
